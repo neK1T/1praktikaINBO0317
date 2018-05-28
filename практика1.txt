@@ -1,0 +1,26 @@
+#include <iostream>   //Коряжкин Никита ИНБО-03-17
+#include <cstdlib>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int a, b;
+	double A, B;
+	string name;
+	cout << "Введите свою Фамилию и имя - ";
+	getline(cin, name);
+	cout << " " << name << "!\n\nВведите целое число a = ";
+	cin >> a;
+	cout << "Введите целое число b = ";
+	cin >> b;
+	cout << "\na + b = " << a+b << "\na - b = " << a - b << "\nb - a = " << b - a << "\na*b = " << a*b << "\na.b = " << a/b << "\nb/a = " << b / a << endl << endl;
+	
+	cout << "Введите дробное число A = ";
+	cin >> A;
+	cout << "Введите дробное число B = ";
+	cin >> B;
+	cout << "\nA + B = " << A + B << "\nA - B = " << A - B << "\nB - A = " << B - A << "\nA*B = " << A * B << "\nA/B = " << A / B << "\nB/A = " << B / A << endl << endl;
+	system("pause");
+	return 0;
+}
